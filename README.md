@@ -1,2 +1,4 @@
 # pyhangman
-Hangman in python, with tkinter, pygame, json and random imports
+its just hangman
+
+there is a json file for the words, which can be edited
