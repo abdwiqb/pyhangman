@@ -6,7 +6,7 @@ import json
 with open('words.json', 'r') as f:
     WORD_LIST = json.loads(f.read())
 
-MAX_STRIKES = 8
+MAX_STRIKES = 7
 WIN_WIDTH = 550
 WIN_HEIGHT = 430
 
