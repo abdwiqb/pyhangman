@@ -24,5 +24,9 @@
 	"educational": ["useful", "teach", "school"],
 	"ginormous": ["adjective", "size", "big"],
 	"incomprehensible": ["impossible", "mind", "thoughts"],
-	"canada": ["eh?", "aboot", "poutine"]
+	"canada": ["eh?", "aboot", "poutine"],
+	"historian": ["person", "job", "past"],
+	"forgetting": ["thought", "out", "unknown"],
+	"submarine": ["water", "ocean", "vehicle"],
+	"hangman": ["game", "currently", "playing"]
 }
