@@ -25,6 +25,7 @@ strike_sound = pygame.mixer.Sound('sounds\\strike.wav')
 win_sound = pygame.mixer.Sound('sounds\\win.wav')
 loss_sound = pygame.mixer.Sound('sounds\\loss.wav')
 button_sound = pygame.mixer.Sound('sounds\\button.wav')
+prev_guess_sound = pygame.mixer.Sound('sounds\\prev_guess.wav')
 
 word = random.choice(list(WORD_LIST.keys()))
 word_hints = WORD_LIST.get(word)
@@ -142,6 +143,7 @@ def take_guess(key):
     char = key.char
 
     if char in correct or char in strikes:
+        prev_guess_sound.play()
         return None
     if check_guesses() == None:
         if char in word:
